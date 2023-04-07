@@ -5,7 +5,7 @@ pontos_do_jogador=0
 pontos_do_computador=0
 boo=False
 print("Joque pedra papel e tesoura com o computador, o primeiro que fazer 3 pontos vencerá!")
-while (pontos_do_computador<3 or pontos_do_jogador<3) and boo==False:
+while boo==False:
     print("Pontos do computador: ",pontos_do_computador,"\nPontos do jogador: ",pontos_do_jogador)
     #receber a escolha do jogador
     escolha_jogador=str(input("Insira uma escolha (pedra, papel ou tesoura):\n"))
